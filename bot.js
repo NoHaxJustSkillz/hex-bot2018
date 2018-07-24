@@ -41,4 +41,4 @@ client.on('message', message () => {
   return.message.author.send("The Help section is coming soon, for now welcome to Hex Studios!");
   }
 });
-client.login(config.token);
+client.login(process.env.token);
