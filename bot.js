@@ -4,7 +4,7 @@ const config = require("./config.json");
 
 client.on('ready', () => {
 console.log('HexBot Online!');
-bot.user.setGame("MORE COMING SOON, SAY "help" FOR HELP");
+bot.user.setGame("MORE COMING SOON, SAY "!help" FOR HELP");
 });
 
 client.on('message', message () => {
@@ -41,4 +41,4 @@ client.on('message', message () => {
   return.message.author.send("The Help section is coming soon, for now welcome to Hex Studios!");
   }
 });
-client.login(process.env.BOT_TOKEN);
+client.login(config.token);
