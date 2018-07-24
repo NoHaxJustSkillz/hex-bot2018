@@ -1,4 +1,13 @@
 { 
+  "name" : "HexBot"
+  "version" : "0.0.0"
+  "main" : "bot.js"
+  "scripts" : {
+  "start" : "node bot.js"
+},
+"dependencies": {
+  "discord.js": "11.1.0"
+}
   "token"  : "NDcxMzI5OTI4NDcwNzI0NjIw.DjjQWA.VCrgPREyUhqaGTix8in2qKzwO6Y",
   "prefix" : "]"
 }
